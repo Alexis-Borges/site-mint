@@ -49,12 +49,16 @@
       }
 
       @media all and (min-width: 768px) and (max-width: 1024px) {
-        -webkit-text-stroke: 4px;
-        color: white;
+        .hero-heading {
+          -webkit-text-stroke: 4px;
+          color: white;
+        }
       }
 
       @media all and (min-width: 480px) and (max-width: 768px) {
-        -webkit-text-stroke: 2px;
+        .hero-heading {
+          -webkit-text-stroke: 2px;
+        }
       }
     </style>
   </head>
@@ -86,7 +90,7 @@
           ><a id="connect" href="#" class="button nav w-button">Connect</a>
         </nav>
         <div class="menu-button w-nav-button">
-          <div class="icon w-icon-nav-menu"></div>
+          <div class="icon w-icon-nav-menu" onclick="addMenuOpen"></div>
         </div>
       </div>
     </div>
@@ -253,7 +257,7 @@
           alt=""
           class="image bc"
         /><a href="#" id="mint-button" class="primary-button hero w-button"
-          >MINT SOME CEREALS</a
+          >MINT SOME CEREALS</a
         >
         <div class="hero-price">
           <strong>75 of 75 available<br /></strong>0.05 ETH per CerealBowls
@@ -277,8 +281,8 @@
         <h2>Get your CEREALBOwl</h2>
         <p class="paragraph">
           CerealBowls is a collection of CerealBowls designed by
-          <span></span>Manioc and minted as NFTs. They are designed from various
-           outfits, tin faces, digital accessories, top pieces, faces. Get your
+          <span>Manioc</span> and minted as NFTs. They are designed from various
+          outfits, tin faces, digital accessories, top pieces, faces. Get your
           own!
         </p>
         <a href="#" class="primary-button w-button">MiNT</a>
@@ -318,7 +322,7 @@
           src="https://uploads-ssl.webflow.com/637391829aade541a343654d/638399e147c2d3fe72d84ecc_illustration-cute-cereal-bowl-doing-scare-gesture_152558-85270-removebg-preview.png"
           loading="lazy"
           width="263"
-          sizes="(max-width: 767px) 100vw, 263px"
+          sizes="(max-width: 767px) 100vw, 270px"
           srcset="
             https://uploads-ssl.webflow.com/637391829aade541a343654d/638399e147c2d3fe72d84ecc_illustration-cute-cereal-bowl-doing-scare-gesture_152558-85270-removebg-preview-p-500.png 500w,
             https://uploads-ssl.webflow.com/637391829aade541a343654d/638399e147c2d3fe72d84ecc_illustration-cute-cereal-bowl-doing-scare-gesture_152558-85270-removebg-preview.png       500w
@@ -362,7 +366,7 @@
           src="https://uploads-ssl.webflow.com/637391829aade541a343654d/638399df6935f743a78a7a40_cute-cereal-bowl-character-with-puke_152558-85450-removebg-preview.png"
           loading="lazy"
           width="260"
-          sizes="(max-width: 767px) 100vw, 260px"
+          sizes="(max-width: 767px) 100vw, 270px"
           srcset="
             https://uploads-ssl.webflow.com/637391829aade541a343654d/638399df6935f743a78a7a40_cute-cereal-bowl-character-with-puke_152558-85450-removebg-preview-p-500.png 500w,
             https://uploads-ssl.webflow.com/637391829aade541a343654d/638399df6935f743a78a7a40_cute-cereal-bowl-character-with-puke_152558-85450-removebg-preview.png       500w
@@ -411,7 +415,7 @@
         src="https://uploads-ssl.webflow.com/637391829aade541a343654d/638399dd8c4856212e9de6e5_cereal-bowl-mascot-character-as-mma-fighter-with-champion-belt_152558-85369-removebg-preview.png"
         loading="lazy"
         width="250"
-        sizes="(max-width: 767px) 100vw, 250px"
+        sizes="(max-width: 767px) 100vw, 270px"
         srcset="
           https://uploads-ssl.webflow.com/637391829aade541a343654d/638399dd8c4856212e9de6e5_cereal-bowl-mascot-character-as-mma-fighter-with-champion-belt_152558-85369-removebg-preview-p-500.png 500w,
           https://uploads-ssl.webflow.com/637391829aade541a343654d/638399dd8c4856212e9de6e5_cereal-bowl-mascot-character-as-mma-fighter-with-champion-belt_152558-85369-removebg-preview.png       500w
@@ -421,7 +425,7 @@
         src="https://uploads-ssl.webflow.com/637391829aade541a343654d/638399de9f6b47802c03faac_cereal-bowl-pirate-character-holding-sword-beside-treasure-box_152558-85408-removebg-preview.png"
         loading="lazy"
         width="279.5"
-        sizes="(max-width: 767px) 100vw, 279.5px"
+        sizes="(max-width: 767px) 100vw, 270px"
         srcset="
           https://uploads-ssl.webflow.com/637391829aade541a343654d/638399de9f6b47802c03faac_cereal-bowl-pirate-character-holding-sword-beside-treasure-box_152558-85408-removebg-preview-p-500.png 500w,
           https://uploads-ssl.webflow.com/637391829aade541a343654d/638399de9f6b47802c03faac_cereal-bowl-pirate-character-holding-sword-beside-treasure-box_152558-85408-removebg-preview.png       559w
@@ -431,7 +435,7 @@
         src="https://uploads-ssl.webflow.com/637391829aade541a343654d/638399e073b91e639a8e8742_happy-cereal-bowl-cartoon-playing-soap-bubble_152558-85355-removebg-preview.png"
         loading="lazy"
         width="300"
-        sizes="(max-width: 767px) 100vw, 300px"
+        sizes="(max-width: 767px) 100vw, 270px"
         srcset="
           https://uploads-ssl.webflow.com/637391829aade541a343654d/638399e073b91e639a8e8742_happy-cereal-bowl-cartoon-playing-soap-bubble_152558-85355-removebg-preview-p-500.png 500w,
           https://uploads-ssl.webflow.com/637391829aade541a343654d/638399e073b91e639a8e8742_happy-cereal-bowl-cartoon-playing-soap-bubble_152558-85355-removebg-preview.png       559w
@@ -676,7 +680,7 @@
             "
             alt=""
           />
-          <h3>What’s  an NFT?</h3>
+          <h3>What’s an NFT?</h3>
           <div>
             NFT stands for &quot;Non-fungible token,&quot; which means that its
             a unique, digital item with blockchain-managed ownership that users
@@ -700,7 +704,7 @@
             "
             alt=""
           />
-          <h3>How do I NFT?</h3>
+          <h3>How do I NFT?</h3>
           <div class="w-richtext">
             <p>
               New to NFTs? No worries, here are some steps on what you need to
@@ -708,23 +712,20 @@
             </p>
             <ol role="list">
               <li>
-                Download the <a target="_blank" href="http://metamask.io/"
-                  >metamask.io</a
-                > extension for the Chrome/Brave browser or app on mobile. This
+                Download the
+                <a target="_blank" href="http://metamask.io/">metamask.io</a>
+                extension for the Chrome/Brave browser or app on mobile. This
                 will allow you to make purchases with Ethereum and can be found
                 in the extensions tab. If you are on mobile, you must use the
                 Metamask App Browser
               </li>
               <li>
                 You can purchase Ethereum through the Metamask Wallet using Wyre
-                or Send Ethereum from an exchange like <a
-                  target="_blank"
-                  href="http://coinbase.com/"
-                  >Coinbase</a
-                >.
+                or Send Ethereum from an exchange like
+                <a target="_blank" href="http://coinbase.com/">Coinbase</a>.
               </li>
               <li>
-                Click on <strong>Connect</strong> at the top of the page and
+                Click on <strong>Connect</strong> at the top of the page and
                 connect your Metamask. Once joined, you will be able to purchase
                 the NFTs in the mint section. You will be prompted to sign your
                 transaction. FYI, there will be a fee associated with every
@@ -732,7 +733,8 @@
               </li>
               <li>
                 Once you have made your purchase, your CerealBowls NFTs will be
-                viewable in your wallet and on <a
+                viewable in your wallet and on
+                <a
                   href="http://opensea.io/collection/strawberrywtf"
                   target="_blank"
                   >OpenSea</a
@@ -988,9 +990,11 @@
           ><strong class="bold-white-link">Twitter</strong></a
         >
         or
-        <a href="#"
+        <a href="https://discord.com/"
           ><strong class="bold-white-link">Discord<br /> </strong></a
-        ><a href="#" class="bold-white-link">Smart Contract</a>
+        ><a href="https://etherscan.io/tokens-nft" class="bold-white-link"
+          >Smart Contract</a
+        >
       </div>
     </div>
     <div
